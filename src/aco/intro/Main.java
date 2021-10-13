@@ -14,7 +14,7 @@ public class Main {
         List<String> optimalRoute = solver.findOptimalRoute(distanceMap);
         Instant end = Instant.now();
         System.out.println("Optimal route: " + optimalRoute);
-        System.out.println("Optimal distance (miles): " + TravellingHelper.calculateDistance(optimalRoute, distanceMap));
+        System.out.println("Optimal distance (kilometers): " + TravellingHelper.calculateDistance(optimalRoute, distanceMap));
         System.out.println("Execution time (milliSeconds): " + Duration.between(start, end).toMillis());
     }
 
