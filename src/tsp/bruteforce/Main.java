@@ -1,4 +1,6 @@
-package aco.intro;
+package tsp.bruteforce;
+
+import tsp.TravellingHelper;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -20,10 +22,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Solving very small problem ");
+        System.out.println("Solving a very small problem ");
         solveTsp(TravellingHelper.getVerySmallProblem());
 
-        System.out.println("Solving small problem ");
+        System.out.println("Solving a small problem ");
         solveTsp(TravellingHelper.getSmallProblem());
 
 

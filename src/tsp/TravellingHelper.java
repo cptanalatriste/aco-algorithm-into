@@ -1,4 +1,4 @@
-package aco.intro;
+package tsp;
 
 import java.util.List;
 import java.util.Map;

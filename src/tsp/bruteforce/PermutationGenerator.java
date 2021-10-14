@@ -1,4 +1,4 @@
-package aco.intro;
+package tsp.bruteforce;
 
 import java.util.ArrayList;
 import java.util.Collections;
