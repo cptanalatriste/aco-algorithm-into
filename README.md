@@ -1,2 +1,2 @@
 # tsp-algorithm-into
-Supporting code for lesson on Ant Colony Optimisation
+Supporting code for the article on Ant Colony Optimisation
